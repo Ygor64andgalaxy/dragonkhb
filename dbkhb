@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DBZ vs Marvel vs Capcom</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #10121b;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header { padding: 24px 12px; }
+    h1 { margin-bottom: 10px; }
+
+    main {
+      width: min(960px, 96%);
+      margin: 0 auto 30px;
+    }
+
+    .game {
+      width: 100%;
+      aspect-ratio: 8 / 5;
+      background: black;
+      border: 2px solid #454b63;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    p { color: #c7cbe0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DBZ vs Marvel vs Capcom</h1>
+    <p>Seu cantinho dedicado ao jogo de luta!</p>
+  </header>
+
+  <main>
+    <div class="game">
+      <iframe
+        src="https://kbhgames.com/game/dbz-vs-marvel-vs-capcom/embed"
+        title="DBZ vs Marvel vs Capcom"
+        allow="autoplay; fullscreen; gamepad"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <p>Projeto independente para fins educacionais.</p>
+  </main>
+</body>
+</html>
